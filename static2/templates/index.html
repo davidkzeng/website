@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-container quarters">
+  <div>
+    <img src="images/website-profile.jpg" width="175">
+    <h5>David Zeng</h5>
+  </div>
+  <div class="right-main-quarters text">
+    <div class="summary">
+      I graduated from Carnegie Mellon University in 2019 with a B.S in Computer Science.
+      I'm currently a software engineer at Two Sigma, working on high-frequency strategies.
+      <br><br>
+      Contact me at davidzengx (at) gmail.com
+    </div>
+
+    <h5>Publications</h5>
+    
+    {% set publications = load_data(path="static/data/publications.json", format="json") %}
+    {% for publication in publications %}
+      <div class="entry">
+        <em>{{ publication.title }}</em>
+        [<a href="{{ publication.link }}">pdf</a>]
+        <br>
+        {{ publication.authors }}
+        <br>
+        {{ publication.venue }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock content %}

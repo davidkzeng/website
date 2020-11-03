@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Fairness-Efficiency Tradeoffs in Dynamic Fair Division",
+    "link": "pdf/ec20-fair-eff-tradeoff-full.pdf",
+    "authors": "David Zeng, Alex Psomas",
+    "venue": "EC 2020"
+  },
+  {
+    "title": "Green Security Game with Community Engagement",
+    "link": "pdf/aamas20-community-engagement.pdf",
+    "authors": "Taoan Huang, Weiran Shen, David Zeng, Tianyu Gu, Rohit Singh, Fei Fang",
+    "venue": "AAMAS 2020"
+  },
+  {
+    "title": "Achieving a Fairer Future by Changing the Past",
+    "link": "pdf/ijcai19-adjustments.pdf",
+    "authors": "Jiafan He, Alexandros Psomas, Ariel D. Procaccia, David Zeng",
+    "venue": "IJCAI 2019"
+  }
+]

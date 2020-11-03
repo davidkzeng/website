@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>David Zeng</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/barebones.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+    <div class="grid-container full">
+      <nav class="navigation">
+        <ul class="navigation-list u-pull-right">
+          <li class="navigation-item"><a href="/">Home</a></li>
+          <li class="navigation-item"><a href="/blog">Blog</a></li>
+          <li class="navigation-item"><a href="/pdf/resume.pdf">CV</a></li>
+        </ul>
+      </nav>
+    {% block content %} {% endblock %}
+    </div>
+  </body>
+</html>
+
