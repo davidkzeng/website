@@ -1,18 +1,14 @@
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: python38
 
 handlers:
 - url: /
-  static_files: static/index.html
-  upload: static/index.html
+  static_files: static/public/index.html
+  upload: static/public/index.html
 
-- url: /notes
-  static_files: static/notes/notes.html
-  upload: static/notes/notes.html
+- url: /(.*)/
+  static_files: static/public/\1/index.html
+  upload: static/public/.*/index.html
 
 - url: /(.*)
-  static_files: static/\1
-  upload: static/(.*)
-
-
+  static_files: static/public/\1
+  upload: static/public/(.*)

@@ -6,7 +6,7 @@
     <title>David Zeng</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/barebones.css">
@@ -18,20 +18,11 @@
       <nav class="navigation">
         <ul class="navigation-list u-pull-right">
           <li class="navigation-item"><a href="/">Home</a></li>
-          <li class="navigation-item"><a href="/blog">Blog</a></li>
-          <li class="navigation-item"><a href="/pdf/resume.pdf">CV</a></li>
+          <li class="navigation-item"><a href="/blog/">Blog</a></li>
+          <!-- <li class="navigation-item"><a href="/pdf/resume.pdf">CV</a></li> -->
         </ul>
       </nav>
-    
-<h1 class="title">
-  List of blog posts
-</h1>
-<ul>
-  
-  <li><a href="http://www.davidzeng.me/blog/first/">My first post</a></li>
-  
-</ul>
-
+    {% block content %} {% endblock %}
     </div>
   </body>
 </html>

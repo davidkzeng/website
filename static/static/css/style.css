@@ -31,7 +31,7 @@ a:hover {
 /* General */
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding: 10px;
 }
 
@@ -53,7 +53,7 @@ body a:hover {
   padding-bottom: 10px;
 }
 
-.right-main-quarters {
+.quarters-two-five {
   grid-column: 2 / 5;
 }
 
